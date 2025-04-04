@@ -7,28 +7,45 @@ The primary objective of this project is to streamline and automate the various 
 # key features
 
 ## Student Module
+
 Register & log in
+
 View available jobs & internships
+
 Apply for opportunities
+
 Track application status
+
 Manage & update profile
 
 ## Recruiter Module
+
 Register & log in
+
 Post job/internship opportunities
+
 View applicants
+
 Approve or reject applications
 
 ## Admin Module
+
 Secure login
+
 Approve recruiters and postings
+
 Monitor all activities
+
 Update statuses and reports
 
 # Technologies Used
+
 Frontend: HTML, CSS, JavaScript
+
 Backend: PHP
+
 Database: MySQL
+
 Session Management: PHP Sessions
 
 # How to Run the Project
@@ -48,14 +65,23 @@ Set your database credentials in connect.php
 # Important Files
 
 ##File/Folder	                     ##Description
+
 admin_dashboard.php 	         Admin landing page
+
 post_job.php	                Form to post job openings
+
 student_job_display.php	      Jobs available for students
+
 student_job_submission.php	  Handles job applications
+
 recruiter_dashboard.php	      Dashboard for recruiters
+
 apply_job.php	                Job application processing
+
 register.php	                General user registration logic
+
 contact_us.php	              Static contact page
+
 update_application_status.php	Admin can update application status
 
 # Future Enhancements
@@ -70,6 +96,9 @@ Sentiment analysis for feedback
 
 Mobile app version
 
+
 # Contributors
+
 B.SRAVAN KUMAR
+
 T.MANISHA
