@@ -64,25 +64,25 @@ Set your database credentials in connect.php
 
 # Important Files
 
-##File/Folder	                     ##Description
+##File/Folder	                     
 
-admin_dashboard.php 	         Admin landing page
+admin_dashboard.php:- 	         Admin landing page
 
-post_job.php	                Form to post job openings
+post_job.php:-	                Form to post job openings
 
-student_job_display.php	      Jobs available for students
+student_job_display.php:-	      Jobs available for students
 
-student_job_submission.php	  Handles job applications
+student_job_submission.php:-	  Handles job applications
 
-recruiter_dashboard.php	      Dashboard for recruiters
+recruiter_dashboard.php:-	      Dashboard for recruiters
 
-apply_job.php	                Job application processing
+apply_job.php:-	                Job application processing
 
-register.php	                General user registration logic
+register.php:-	                General user registration logic
 
-contact_us.php	              Static contact page
+contact_us.php:-	              Static contact page
 
-update_application_status.php	Admin can update application status
+update_application_status.php:-	Admin can update application status
 
 # Future Enhancements
 
