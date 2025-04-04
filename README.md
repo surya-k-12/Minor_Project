@@ -4,6 +4,8 @@ A full-stack web application designed to simplify and automate the campus placem
 
 The primary objective of this project is to streamline and automate the various activities involved in the placement process, thereby enhancing the efficiency and effectiveness of placement cells.
 
+![image alt](https://github.com/surya-k-12/Minor_Project/blob/master/Screenshot%202024-07-23%20232326.png?raw=true)
+
 # key features
 
 ## Student Module
