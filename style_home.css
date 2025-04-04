@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#fbfafb;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+    background-color: #db3db6;
+    background-size: contain;
+}
+.logo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* Header styles */
+header {
+    background-color:#db3db6;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size: larger;
+}
+
+nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1em;
+    
+}
+li:hover {
+    background-color: #74a8cc;
+    color: #e02ed7;
+}
+
+/* Image section styles */
+.image-section {
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content styles */
+main {
+    padding: 50px 0;
+}
+
+.login-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    min-width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(218, 79, 199, 0.851);
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #db3db6;
+    background-color: #fff;
+    border: 2px solid #db3db6;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-button:hover {
+    background-color: #db3db6;
+    color: #fff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #db3db6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+span{
+    color: #2d272c;
+    text-align: center;
+}
+h1.about{
+    text-align: center;
+    
+}
+.overview-section,.section2,.section3{
+  margin-top: 50px;  
+  width: 100%;
+  border-top: 15px solid rgb(23, 140, 198);
+}
+.para{
+    font-size: 20px;
+}
+.image-section2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.image-section3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.image-section3 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pla{
+    color: orangered;
+    display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  
+}
+.pla:hover{
+    color: rgb(187, 134, 27);
+}
+

@@ -1,0 +1,74 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* Container for internship listings */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+/* Internship listing styles */
+.internship-listing {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.internship-listing h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.internship-listing p {
+    margin-bottom: 5px;
+}
+
+/* Apply button */
+.internship-listing .apply-form {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.internship-listing .apply-form button {
+    background-color: #291acc;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.internship-listing .apply-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .internship-listing {
+        padding: 10px;
+    }
+
+    .internship-listing h2 {
+        font-size: 20px;
+    }
+}
+a{
+    color: rgb(244, 241, 241);
+}
+h1{
+    color: rgb(30, 15, 164);
+}

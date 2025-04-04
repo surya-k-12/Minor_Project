@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Job Application</title>
+    <link rel="stylesheet" href="student_job_display.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+<div class="container">
+    <h1>Job Application Form</h1>
+
+    <form action="student_job_display.php" method="post">
+        <div class="form-group">
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle" value="<?php echo htmlspecialchars($_GET['jobTitle']); ?>" readonly>
+        </div>
+        <div class="form-group">
+            <label for="jobDescription">Job Description:</label>
+            <textarea id="jobDescription" name="jobDescription" readonly><?php echo htmlspecialchars($_GET['jobDescription']); ?></textarea>
+        </div>
+        <div class="form-group">
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" value="<?php echo htmlspecialchars($_GET['department']); ?>" readonly>
+        </div>
+        <div class="form-group">
+            <label for="skills_required">Skills Required:</label>
+            <input type="text" id="skills_required" name="skills_required" value="<?php echo htmlspecialchars($_GET['skills_required']); ?>" readonly>
+        </div>
+        <div class="form-group">
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" value="<?php echo htmlspecialchars($_GET['location']); ?>" readonly>
+        </div>
+        <div class="form-group">
+            <label for="package">Package:</label>
+            <input type="text" id="package" name="package" value="<?php echo htmlspecialchars($_GET['package']); ?>" readonly>
+        </div>
+        <div class="form-group">
+            <button type="submit" name="apply">Submit Application</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
